@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="职鲸浏览器求职Agent介绍与新手教程：岗位解读、简历匹配、HR招呼语、面试训练、Offer谈判与入职闭环。">
+  <meta name="theme-color" content="#eef8ff">
+  <title>职鲸 · 让每一次求职，都更接近理想 Offer</title>
+  <link rel="icon" href="assets/icon-128.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top"><img src="assets/icon-128.png" alt=""><span><b>职鲸</b><small>AI 求职小伙伴</small></span></a>
+    <button id="menuButton" class="menu-button" aria-label="打开导航" aria-expanded="false">☰</button>
+    <nav id="siteNav">
+      <a href="#features">核心功能</a>
+      <a href="#start">新手教程</a>
+      <a href="#interview">面试训练</a>
+      <a href="#privacy">隐私</a>
+      <a class="nav-download" href="https://github.com/z177010203/zhi-jing/releases/latest">下载最新版</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">从看懂岗位，到拿下 Offer</p>
+        <h1>让求职不再靠猜，<br><span>每一步都有准备。</span></h1>
+        <p class="lead">职鲸是一款由你自己的大模型API驱动的浏览器求职 Agent。它围绕真实岗位和真实简历，连接JD解读、简历匹配、HR沟通、面试训练、Offer谈判与入职闭环。</p>
+        <div class="hero-actions">
+          <a class="primary" href="https://github.com/z177010203/zhi-jing/releases/latest">下载 V1.0.2 正式版</a>
+          <a class="secondary" href="#start">查看新手教程</a>
+        </div>
+        <div class="trust-row"><span>✓ 用户自带API</span><span>✓ 本地保存数据</span><span>✓ 不虚构经历</span></div>
+      </div>
+      <div class="product-preview" aria-label="职鲸岗位作战报告示意">
+        <div class="preview-top"><span class="whale">🐋</span><div><b>职鲸岗位作战报告</b><small>产品经理 · 成都 · 001</small></div><em>分析完成</em></div>
+        <div class="score"><strong>86</strong><span>岗位匹配度<br><b>建议投递</b></span></div>
+        <div class="preview-block blue"><b>🎯 面试官考查意图</b><p>验证你是否能把用户洞察转化为可落地的产品决策。</p></div>
+        <div class="preview-block pink"><b>❤️ 推荐公式</b><p>业务目标 → 用户问题 → 关键动作 → 量化结果 → 复盘</p></div>
+        <div class="preview-block red"><b>❌ 易失分回答</b><p>只描述“参与了项目”，却没有说明个人判断和贡献。</p></div>
+      </div>
+    </section>
+
+    <section class="section intro-strip">
+      <p>职鲸不是帮你“编经历”，而是帮助你把真实能力说得更准确、更有证据、更容易被HR理解。</p>
+    </section>
+
+    <section id="features" class="section">
+      <div class="section-heading"><p class="eyebrow">完整求职闭环</p><h2>从岗位分析到试用期，每一步都能继续推进</h2><p>所有信息围绕同一个岗位档案持续积累，不会因为打开另一个模块而覆盖。</p></div>
+      <div class="feature-grid">
+        <article><span>01</span><h3>岗位作战报告</h3><p>解读JD事实、隐性要求、公司与岗位风险，给出投递判断和行动清单。</p></article>
+        <article><span>02</span><h3>简历证据匹配</h3><p>逐项对应岗位要求与真实简历证据，明确优势、差距和表达策略。</p></article>
+        <article><span>03</span><h3>HR招呼语</h3><p>生成直接专业型、项目证据型和自然沟通型三种岗位专属话术。</p></article>
+        <article><span>04</span><h3>一岗一简历</h3><p>不新增不存在的经历，逐条确认优化建议，并保留照片位置和美观排版。</p></article>
+        <article><span>05</span><h3>全流程面试</h3><p>HR初面、业务一面、专业二面、负责人终面，每轮5题，共20题。</p></article>
+        <article><span>06</span><h3>Offer与入职闭环</h3><p>比较Offer、准备谈薪、核对签约事项、管理入职材料和试用期计划。</p></article>
+      </div>
+    </section>
+
+    <section id="start" class="section tutorial-section">
+      <div class="section-heading"><p class="eyebrow">新手教程</p><h2>第一次使用，跟着这六步完成</h2></div>
+      <div class="steps">
+        <article><b>1</b><div><h3>下载并解压</h3><p>从GitHub最新Release下载正式版ZIP，解压到一个固定文件夹，后续更新继续覆盖这个文件夹。</p></div></article>
+        <article><b>2</b><div><h3>加载扩展</h3><p>打开 <code>edge://extensions</code> 或 <code>chrome://extensions</code>，开启开发人员模式，选择“加载已解压的扩展程序”。</p></div></article>
+        <article><b>3</b><div><h3>配置自己的AI</h3><p>在“我的 → AI配置”选择模型厂商，填写API基础地址、API Key和模型名称。DeepSeek基础地址填写 <code>https://api.deepseek.com</code>。</p></div></article>
+        <article><b>4</b><div><h3>建立求职资料</h3><p>上传或粘贴完整母版简历，可单独上传照片。照片保存在本地，不会默认发给无视觉模型。</p></div></article>
+        <article><b>5</b><div><h3>读取并分析岗位</h3><p>打开BOSS直聘岗位列表或详情页，点击“读取当前页面”，核对岗位、薪资和JD后保存机会，再启动完整岗位分析。</p></div></article>
+        <article><b>6</b><div><h3>按流程持续推进</h3><p>从投递、HR沟通、面试、Offer、谈薪签约到入职与试用期，在同一份岗位档案中更新状态。</p></div></article>
+      </div>
+    </section>
+
+    <section id="interview" class="section interview-section">
+      <div class="section-heading"><p class="eyebrow">面试前的20题完整演练</p><h2>不仅预测问题，还告诉你怎样回答</h2></div>
+      <div class="rounds">
+        <article><b>HR初面</b><span>5题</span><p>求职动机、稳定性、薪资、经历真实性和基本岗位匹配。</p></article>
+        <article><b>业务一面</b><span>5题</span><p>业务理解、协作方式、项目判断和具体贡献。</p></article>
+        <article><b>专业二面</b><span>5题</span><p>专业深度、方法论、复杂问题和岗位关键能力。</p></article>
+        <article><b>负责人终面</b><span>5题</span><p>长期潜力、战略视角、价值观、领导力和最终录用风险。</p></article>
+      </div>
+      <div class="formula-demo">
+        <p><strong>🎯 考查意图</strong> 先理解面试官为什么问。</p>
+        <p><strong>❤️ 推荐公式</strong> 选择STAR-L、CAR、PREP或金字塔结构。</p>
+        <p><strong>✅ 真实证据</strong> 从母版简历调用可验证的经历。</p>
+        <p><strong>❌ 易失分回答</strong> 提前识别空泛、回避和缺乏个人贡献的表达。</p>
+      </div>
+    </section>
+
+    <section id="privacy" class="section privacy-section">
+      <div><p class="eyebrow">数据与隐私</p><h2>你的求职资料，默认留在你的浏览器里</h2></div>
+      <ul>
+        <li>简历、照片、岗位和报告默认本地保存。</li>
+        <li>API Key由用户自己提供，职鲸不提供模型额度。</li>
+        <li>只有主动分析时，文本才会发送至所选模型厂商。</li>
+        <li>未经确认，不自动投递、不自动发送招聘消息。</li>
+      </ul>
+    </section>
+
+    <section class="section pro-section">
+      <div><p class="eyebrow">专业永久版</p><h2>¥8.8，一次激活</h2><p>费用用于支持作者持续开发、功能修复和日常维护所投入的时间与开发成本，不包含大模型API费用。</p></div>
+      <div class="contact-card"><span>✉</span><div><b>如需专业付费版，请联系作者</b><p>睡好好❤️不吃香菜</p><a href="mailto:2927806910@qq.com?subject=职鲸专业版">2927806910@qq.com</a></div></div>
+    </section>
+
+    <section class="section faq">
+      <div class="section-heading"><p class="eyebrow">常见问题</p><h2>第一次使用可能会问</h2></div>
+      <details><summary>更新插件后，原来的数据还在吗？</summary><p>保持同一个扩展目录，覆盖新版文件后在扩展管理页点击“重新加载”，本地数据通常会保留。更新前仍建议导出完整备份。</p></details>
+      <details><summary>DeepSeek为什么识别不了简历照片？</summary><p>无视觉模型只能读取文本。职鲸会将照片独立保存在本地，并在简历导出时保留照片或照片位置。</p></details>
+      <details><summary>职鲸会自动帮我批量投递吗？</summary><p>不会。职鲸可以准备每日最多5个岗位的材料和话术，但最终发送与投递必须由用户本人核对确认。</p></details>
+      <details><summary>报告会覆盖之前的内容吗？</summary><p>不会。每次重新生成都会创建独立版本，可以在“报告与历史”中查看、比较和导出。</p></details>
+    </section>
+  </main>
+
+  <footer><img src="assets/icon-128.png" alt=""><div><b>职鲸</b><p>让每一次求职，都更接近理想 Offer。</p></div><a href="https://github.com/z177010203/zhi-jing">GitHub仓库</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
