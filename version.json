@@ -1,8 +1,8 @@
 {
-  "version": "1.0.2",
-  "date": "2026-07-24",
+  "version": "2.0.0",
+  "date": "2026-07-25",
   "users": 0,
-  "notes": "v1.0.2 正式版 · 语义彩色高亮与彩色HTML导出 · 激活成功态 · 结构化作战报告 · 20题全流程面试训练 · GitHub Release自动更新检查",
+  "notes": "V2.0.0 正式版 · 首页最多并存5份独立岗位报告 · 报告名称与内容严格绑定 · 城市区县及结构化地址增强 · 岗位档案AI深挖 · HR回复助手 · 全流程面试训练 · 简历深度优化 · Token费用看板",
   "download": "https://github.com/z177010203/zhi-jing/releases/latest",
-  "minVersion": "1.0.1"
+  "minVersion": "1.0.5"
 }
