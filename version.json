@@ -1,8 +1,8 @@
 {
-  "version": "2.0.2",
+  "version": "2.0.3",
   "date": "2026-07-26",
   "users": 0,
-  "notes": "V2.0.2 正式版 · 机会页单屏工作台 · 岗位列表就近加入队列 · 作战报告招呼语自动同步 · 四套简历模板与A4预览 · 已采用改写预览标记 · Word与PDF直接导出 · BOSS读取和薪资识别优化",
+  "notes": "V2.0.3 正式版 · 简历工坊优化 · 岗位JD关键词与隐性需求对齐 · A4实时预览修复 · 快速润色与完整岗位专属简历校验增强 · Word/PDF导出保留正式样式",
   "download": "https://github.com/z177010203/zhi-jing/releases/latest",
   "minVersion": "1.0.5"
 }
